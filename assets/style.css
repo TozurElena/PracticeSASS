@@ -55,9 +55,9 @@ h2 {
   width: 380px;
 }
 
-.container:hover .date {
-  -webkit-filter: brightness(50%);
-          filter: brightness(50%);
+.container:hover .date p {
+  -webkit-filter: opacity(70%);
+          filter: opacity(70%);
 }
 
 .photo {
