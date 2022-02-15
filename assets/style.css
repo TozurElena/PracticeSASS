@@ -31,8 +31,14 @@ h2 {
           box-shadow: 0 0 5px 5px rgba(192, 179, 179, 0.25);
 }
 
+.container:hover .img-wrap {
+  overflow: hidden;
+}
+
 .container:hover .photo {
   opacity: 0.5;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .container:hover .title {
