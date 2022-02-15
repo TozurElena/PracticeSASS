@@ -10,14 +10,14 @@ h2 {
 }
 .wrap {
   width: 450px;
-  height: 650px;
-  background-color: rgb(204, 207, 209);
+  height: 550px;
+  background-color: rgb(217, 222, 226);
   display: flex;
   justify-content: center;
 }
 .container {
   width: 400px;
-  height: 600px;
+  height: 500px;
   background-color: #fff;
   margin-top: 15px;
   border: 2px solid rgb(228, 222, 222);
@@ -25,6 +25,12 @@ h2 {
 
 .photo {
   width: 100%;
+  &:hover {
+    transform: scale(1.2, 1.2);
+    filter: brightness(70%);
+    width: 50%;
+    height: 50%;
+  }
 }
 .date {
   position: absolute;
@@ -61,6 +67,7 @@ h2 {
   text-align: justify;
   padding-top: 20px;
   padding-right: 50px;
+  display: none;
 }
 .notes {
   display: flex;
