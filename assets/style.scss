@@ -21,16 +21,18 @@ h2 {
   background-color: #fff;
   margin-top: 15px;
   border: 2px solid rgb(228, 222, 222);
+  &:hover {
+    height: 700px;
+    .photo {
+      filter: brightness(70%);
+    }
+    .wrap {
+      height: 750px;
+    }
+  }
 }
-
 .photo {
   width: 100%;
-  &:hover {
-    transform: scale(1.2, 1.2);
-    filter: brightness(70%);
-    width: 50%;
-    height: 50%;
-  }
 }
 .date {
   position: absolute;
