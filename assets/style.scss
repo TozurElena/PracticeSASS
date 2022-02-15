@@ -1,0 +1,82 @@
+$color-orange: rgb(255, 102, 0);
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: $color-orange;
+}
+.wrap {
+  width: 450px;
+  height: 650px;
+  background-color: rgb(204, 207, 209);
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 400px;
+  height: 600px;
+  background-color: #fff;
+  margin-top: 15px;
+  border: 2px solid rgb(228, 222, 222);
+}
+
+.photo {
+  width: 100%;
+}
+.date {
+  position: absolute;
+  left: 375px;
+  top: 30px;
+  color: aliceblue;
+  background-color: $color-orange;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    text-align: center;
+  }
+}
+
+.title {
+  color: aliceblue;
+  background-color: $color-orange;
+  padding: 10px;
+  width: 65px;
+  position: absolute;
+  top: 240px;
+}
+.main {
+  padding-left: 20px;
+}
+.main-text {
+  color: rgb(134, 139, 143);
+  line-height: 130%;
+  word-spacing: 5px;
+  text-align: justify;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+.notes {
+  display: flex;
+  justify-content: flex-start;
+}
+.note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+  p {
+    color: rgb(168, 174, 179);
+  }
+  img {
+    flex-shrink: 0;
+
+    height: 50%;
+  }
+}
