@@ -26,9 +26,32 @@ h2 {
   border: 2px solid #e4dede;
 }
 
+.container:hover {
+  -webkit-box-shadow: 0 0 5px 5px rgba(192, 179, 179, 0.25);
+          box-shadow: 0 0 5px 5px rgba(192, 179, 179, 0.25);
+}
+
 .container:hover .photo {
-  -webkit-filter: brightness(70%);
-          filter: brightness(70%);
+  opacity: 0.5;
+}
+
+.container:hover .title {
+  top: 180px;
+}
+
+.container:hover .main-text {
+  display: block;
+}
+
+.container:hover .main {
+  position: absolute;
+  top: 210px;
+  width: 380px;
+}
+
+.container:hover .date {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
 }
 
 .photo {
@@ -70,6 +93,7 @@ h2 {
 
 .main {
   padding-left: 20px;
+  background-color: #fff;
 }
 
 .main-text {

@@ -22,12 +22,23 @@ h2 {
   margin-top: 15px;
   border: 2px solid rgb(228, 222, 222);
   &:hover {
-    height: 700px;
+    box-shadow: 0 0 5px 5px rgba(192, 179, 179, 0.25);
     .photo {
-      filter: brightness(70%);
+      opacity: 0.5;
     }
-    .wrap {
-      height: 750px;
+    .title {
+      top: 180px;
+    }
+    .main-text {
+      display: block;
+    }
+    .main {
+      position: absolute;
+      top: 210px;
+      width: 380px;
+    }
+    .date {
+      filter: brightness(50%);
     }
   }
 }
@@ -61,6 +72,7 @@ h2 {
 }
 .main {
   padding-left: 20px;
+  background-color: #fff;
 }
 .main-text {
   color: rgb(134, 139, 143);
